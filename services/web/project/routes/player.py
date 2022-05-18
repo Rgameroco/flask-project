@@ -1,7 +1,6 @@
 from flask import Blueprint, request
 from project.controllers.player.player_controller import PlayerController
 from project.models.player import Player
-from project.utils.encoder import Object
 
 players = Blueprint("players", __name__)
 
