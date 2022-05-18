@@ -1,6 +1,6 @@
 # flask-project
 
-Para desplegar el contenedor se tiene que a los archivos .env quitarles la primera parte para que quede en 
+Para desplegar el contenedor se tiene que a los archivos *.env* quitarles la primera parte para que quede en 
   *.env.dev*
   
 Command to execute:
