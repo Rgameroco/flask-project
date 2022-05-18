@@ -1,28 +1,28 @@
 # flask-project
 
 Para desplegar el contenedor se tiene que a los archivos .env quitarles la primera parte para que quede en 
-  .env.dev
+  *.env.dev*
   
 Command to execute:
-  $ docker-compose up -d --build
+  ```$ docker-compose up -d --build ```
   
 Para probar la aplicación apuntar a este servicio:
-  http:/localhost:5000
+  - http:/localhost:5000
 
-Descripción de servicios:
+## Descripción de servicios:
 
-Jugador
+### Jugador
 
-get_all = GET  http:/localhost:5000/players
-get_by_id = GET http:/localhost:5000/player/<id>
-create = POST http:/localhost:5000/player
-update = PUT http:/localhost:5000/player/<id>
-delete = DELETE http:/localhost:5000/player/<id>
+1. get_all = GET  http:/localhost:5000/players
+1. get_by_id = GET http:/localhost:5000/player/<id>
+1. create = POST http:/localhost:5000/player
+1. update = PUT http:/localhost:5000/player/<id>
+1. delete = DELETE http:/localhost:5000/player/<id>
 
-Equipo
+### Equipo
   
-get_all = GET  http:/localhost:5000/teams
-get_by_id = GET http:/localhost:5000/team/<id>
-create = POST http:/localhost:5000/team
-update = PUT http:/localhost:5000/team/<id>
-delete = DELETE http:/localhost:5000/team/<id>
+1. get_all = GET  http:/localhost:5000/teams
+1. get_by_id = GET http:/localhost:5000/team/<id>
+1. create = POST http:/localhost:5000/team
+1. update = PUT http:/localhost:5000/team/<id>
+1. delete = DELETE http:/localhost:5000/team/<id>
